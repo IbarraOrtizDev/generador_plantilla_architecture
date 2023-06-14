@@ -11,6 +11,7 @@ function VerificaNameProject(){
     return $nameProject
 }
 
+
 if ($args.Length -gt 0 -And $args[0] -eq "New") {
     if (-Not($args[1].Length -gt 0)) {
         $nameProject = VerificaNameProject
